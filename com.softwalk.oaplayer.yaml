@@ -1,0 +1,35 @@
+app-id: com.softwalk.oaplayer
+runtime: org.freedesktop.Platform
+runtime-version: '24.08'
+sdk: org.freedesktop.Sdk
+command: oa-player
+separate-locales: false
+finish-args:
+  - --share=ipc
+  - --share=network
+  - --socket=x11
+  - --socket=wayland
+  - --socket=pulseaudio
+  - --device=dri
+  - --filesystem=home
+  - --talk-name=org.freedesktop.Notifications
+
+modules:
+  - name: oa-player
+    buildsystem: simple
+    build-commands:
+      # Extract the .deb and install files to /app
+      - ar x oa-player_0.5.9_amd64.deb
+      - tar xf data.tar.xz
+      - cp -r usr/* /app/
+      # Ensure the executable is in the path
+      - mkdir -p /app/bin
+      - ln -s /app/lib/oa-player/oa-player /app/bin/oa-player
+      # Fix icon path if necessary
+      - mkdir -p /app/share/icons/hicolor/512x512/apps
+      - cp build/icon_512px.png /app/share/icons/hicolor/512x512/apps/com.softwalk.oaplayer.png
+    sources:
+      - type: file
+        path: release/oa-player_0.5.9_amd64.deb
+      - type: dir
+        path: build
