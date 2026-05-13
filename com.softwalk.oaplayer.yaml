@@ -5,6 +5,9 @@ sdk: org.freedesktop.Sdk
 command: oa-player-wrapper
 separate-locales: false
 
+tags:
+  - proprietary
+
 finish-args:
   - --share=ipc
   - --share=network
@@ -36,6 +39,7 @@ modules:
       - type: file
         url: https://github.com/deenbee/oa-player-flatpak/releases/download/audio/oa-player_0.5.9_amd64.deb
         sha256: 8c2933b1e0e9e588a54dc75f05da88cbd7bc5230711baf988c304cc060c91241
+        arch: x86_64
         dest-filename: oa-player.deb
       - type: file
         url: https://github.com/deenbee/oa-player-flatpak/releases/download/audio/oa-player_0.5.9_arm64.deb
