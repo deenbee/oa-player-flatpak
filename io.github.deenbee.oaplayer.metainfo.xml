@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
 
-  <id>com.softwalktechnologies.oaplayer</id>
+  <id>io.github.deenbee.oaplayer</id>
 
   <name>OA Player</name>
 
@@ -14,7 +14,7 @@
   <developer_name>Softwalk Technologies</developer_name>
 
   <launchable type="desktop-id">
-    com.softwalktechnologies.oaplayer.desktop
+    io.github.deenbee.oaplayer.desktop
   </launchable>
 
   <description>
