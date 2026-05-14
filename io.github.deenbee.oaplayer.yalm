@@ -1,4 +1,4 @@
-app-id: com.softwalktechnologies.oaplayer
+app-id: io.github.deenbee.oaplayer
 runtime: org.freedesktop.Platform
 runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
@@ -32,9 +32,9 @@ modules:
       - echo 'exec "/app/opt/OA Player/oa-player" --no-sandbox "$@"' >> /app/bin/oa-player-wrapper
       - chmod +x /app/bin/oa-player-wrapper
       - mkdir -p /app/share/icons/hicolor/512x512/apps
-      - install -Dm644 com.softwalktechnologies.oaplayer.png /app/share/icons/hicolor/512x512/apps/com.softwalktechnologies.oaplayer.png
-      - install -Dm644 com.softwalktechnologies.oaplayer.desktop /app/share/applications/com.softwalktechnologies.oaplayer.desktop
-      - install -Dm644 com.softwalktechnologies.oaplayer.metainfo.xml /app/share/metainfo/com.softwalktechnologies.oaplayer.metainfo.xml
+      - install -Dm644 io.github.deenbee.oaplayer.png /app/share/icons/hicolor/512x512/apps/io.github.deenbee.oaplayer.png
+      - install -Dm644 io.github.deenbee.oaplayer.desktop /app/share/applications/io.github.deenbee.oaplayer.desktop
+      - install -Dm644 io.github.deenbee.oaplayer.metainfo.xml /app/share/metainfo/io.github.deenbee.oaplayer.metainfo.xml
     sources:
       - type: file
         url: https://github.com/deenbee/oa-player-flatpak/releases/download/audio/oa-player_0.5.9_amd64.deb
@@ -47,14 +47,14 @@ modules:
         arch: aarch64
         dest-filename: oa-player.deb
       - type: file
-        url: https://raw.githubusercontent.com/deenbee/oa-player-flatpak/main/com.softwalktechnologies.oaplayer.png
+        url: https://raw.githubusercontent.com/deenbee/oa-player-flatpak/main/io.github.deenbee.oaplayer.png
         sha256: b0609e5b4e9296c3bf7ba32bc128170d8cea7c9f78ae08663f7aeb087b1d28f0
-        dest-filename: com.softwalktechnologies.oaplayer.png
+        dest-filename: io.github.deenbee.oaplayer.png
       - type: file
-        url: https://raw.githubusercontent.com/deenbee/oa-player-flatpak/main/com.softwalktechnologies.oaplayer.desktop
+        url: https://raw.githubusercontent.com/deenbee/oa-player-flatpak/main/io.github.deenbee.oaplayer.desktop
         sha256: fcc77a92231713cb688e79e21e062b7a4b355d1b690e00e9acceb1e5e2d0aadb
-        dest-filename: com.softwalktechnologies.oaplayer.desktop
+        dest-filename: io.github.deenbee.oaplayer.desktop
       - type: file
-        url: https://raw.githubusercontent.com/deenbee/oa-player-flatpak/main/com.softwalktechnologies.oaplayer.metainfo.xml
+        url: https://raw.githubusercontent.com/deenbee/oa-player-flatpak/main/io.github.deenbee.oaplayer.metainfo.xml
         sha256: f2eaf2d3fbb8f766e174b9e2f58f2fe81b26d517519966501b5bcbb909c814da
-        dest-filename: com.softwalktechnologies.oaplayer.metainfo.xml
+        dest-filename: io.github.deenbee.oaplayer.metainfo.xml
