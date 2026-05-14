@@ -52,9 +52,9 @@ modules:
         dest-filename: io.github.deenbee.oaplayer.png
       - type: file
         url: https://raw.githubusercontent.com/deenbee/oa-player-flatpak/main/io.github.deenbee.oaplayer.desktop
-        sha256: fcc77a92231713cb688e79e21e062b7a4b355d1b690e00e9acceb1e5e2d0aadb
+        sha256: 8fab2eb55fda78367e982db4b6d0c9e36b660aea9817565d63e576e939050d14
         dest-filename: io.github.deenbee.oaplayer.desktop
       - type: file
         url: https://raw.githubusercontent.com/deenbee/oa-player-flatpak/main/io.github.deenbee.oaplayer.metainfo.xml
-        sha256: f2eaf2d3fbb8f766e174b9e2f58f2fe81b26d517519966501b5bcbb909c814da
+        sha256: 7195379f121dd6c3acb60458cacc97c4a738a9fe4aab7f53014761067cf8ff01
         dest-filename: io.github.deenbee.oaplayer.metainfo.xml
