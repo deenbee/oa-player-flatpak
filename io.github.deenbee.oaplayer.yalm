@@ -48,14 +48,14 @@ modules:
         arch: aarch64
         dest-filename: oa-player.deb
       - type: file
-        url: https://raw.githubusercontent.com/deenbee/oa-player-flatpak/658a2d279b8151c3dc2668af0ccf8ead61efe129/io.github.deenbee.oaplayer.png
+        url: https://raw.githubusercontent.com/deenbee/oa-player-flatpak/4fd1b14b7e609d0fb2a183f3480bd1e1eb023673/io.github.deenbee.oaplayer.png
         sha256: b0609e5b4e9296c3bf7ba32bc128170d8cea7c9f78ae08663f7aeb087b1d28f0
         dest-filename: io.github.deenbee.oaplayer.png
       - type: file
-        url: https://raw.githubusercontent.com/deenbee/oa-player-flatpak/658a2d279b8151c3dc2668af0ccf8ead61efe129/io.github.deenbee.oaplayer.desktop
+        url: https://raw.githubusercontent.com/deenbee/oa-player-flatpak/4fd1b14b7e609d0fb2a183f3480bd1e1eb023673/io.github.deenbee.oaplayer.desktop
         sha256: 8fab2eb55fda78367e982db4b6d0c9e36b660aea9817565d63e576e939050d14
         dest-filename: io.github.deenbee.oaplayer.desktop
       - type: file
-        url: https://raw.githubusercontent.com/deenbee/oa-player-flatpak/658a2d279b8151c3dc2668af0ccf8ead61efe129/io.github.deenbee.oaplayer.metainfo.xml
+        url: https://raw.githubusercontent.com/deenbee/oa-player-flatpak/4fd1b14b7e609d0fb2a183f3480bd1e1eb023673/io.github.deenbee.oaplayer.metainfo.xml
         sha256: 7195379f121dd6c3acb60458cacc97c4a738a9fe4aab7f53014761067cf8ff01
         dest-filename: io.github.deenbee.oaplayer.metainfo.xml
