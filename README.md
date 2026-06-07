@@ -18,6 +18,12 @@ Premium Glassmorphic Music Player – Transform your PC into a premium analog au
 
 - 🔹 **Tube Preamp Emulation**  
   Faithfully replicate the smooth, harmonic richness of vintage valve amplifiers.
+  
+- 🔹 **Natural Dynamics**
+- 🔹 **High Exciter**
+- 🔹 **Discrete Reverb**
+- 🔹 **Automatic Gain Control**
+- 🔹 **Limiter**    
 
 - 🔹 **All-in-One Audio Hub**  
   Play local files, stream web radio stations, and discover new artists via Jamendo Music integration.
