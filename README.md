@@ -30,6 +30,8 @@ Premium Glassmorphic Music Player – Transform your PC into a premium analog au
 - 🔹 **All-in-One Audio Hub**  
   Play local files, stream web radio stations, and discover new artists via Jamendo Music integration.
 
+![](https://raw.githubusercontent.com/deenbee/oa-player/main/screenshots/sc4.png)
+
 ## 🎧 Experience Your Music Differently
 
 Whether you're a casual listener or a dedicated audiophile, OA Player delivers studio-quality sound with the soul of analog—right on your desktop.
