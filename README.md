@@ -25,8 +25,10 @@ Premium Glassmorphic Music Player – Transform your PC into a premium analog au
    Intelligently expands or recovers the dynamic range of music that has been overly compressed (combating the "Loudness War" effect). Its goal is to restore "air," punch,      and relief to transients (such as drum hits), making the audio sound less flat, more organic, and closer to a live performance without drastically altering the overall       volume.
 - 🔹 **High Exciter** 
    Synthesizes and introduces subtle harmonic overtones into the high-frequency spectrum of the audio. Unlike a traditional equalizer that merely boosts existing treble, the    High Exciter revitalizes dull or lower-quality audio files, adding brightness, clarity, definition, and a crystalline sense of openness to the top end.
-- 🔹 **Discrete Reverb**
-- 🔹 **Automatic Gain Control**
+- 🔹 **Discrete Reverb**  
+   Simulates the acoustics of a real physical space in an extremely controlled and subtle manner. Rather than creating an exaggerated "cathedral echo" effect, it injects a      light atmosphere, depth, and three-dimensionality into the sound. This helps lift instruments and vocals out of a completely dry mix, enveloping the listener naturally.
+- 🔹 **Automatic Gain Control**  
+   Continuously modulates and levels the output volume in real-time. It analyzes the incoming signal to normalize audio levels across your library; if a song is recorded too    quietly, it smoothly raises the gain, and if a loud track plays, it attenuates it. This eliminates the need to manually adjust your volume knob between different tracks.
 - 🔹 **Limiter**    
 
 - 🔹 **All-in-One Audio Hub**  
