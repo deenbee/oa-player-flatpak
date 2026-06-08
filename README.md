@@ -29,8 +29,8 @@ Premium Glassmorphic Music Player – Transform your PC into a premium analog au
    Simulates the acoustics of a real physical space in an extremely controlled and subtle manner. Rather than creating an exaggerated "cathedral echo" effect, it injects a      light atmosphere, depth, and three-dimensionality into the sound. This helps lift instruments and vocals out of a completely dry mix, enveloping the listener naturally.
 - 🔹 **Automatic Gain Control**  
    Continuously modulates and levels the output volume in real-time. It analyzes the incoming signal to normalize audio levels across your library; if a song is recorded too    quietly, it smoothly raises the gain, and if a loud track plays, it attenuates it. This eliminates the need to manually adjust your volume knob between different tracks.
-- 🔹 **Limiter**    
-
+- 🔹 **Limiter**  
+   Acts as an absolute safety barrier at the final stage of the audio chain. Its job is to strictly prevent the signal from exceeding $0\text{ dB}$ (the digital ceiling),       completely eliminating digital clipping and distortion. It ensures that even if the High Exciter or AGC push the signal hard, the output remains clean, safe for your         ears, and free of artifacts.
 - 🔹 **All-in-One Audio Hub**  
   Play local files, stream web radio stations, and discover new artists via Jamendo Music integration.
 
